@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app 
+         id="WebApp_ID" version="2.5" 
+         xmlns="http://java.sun.com/xml/ns/javaee" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <display-name>login</display-name>
+    <servlet>
+        <description/>
+        <display-name>Login</display-name>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>com.adrian.servlet.Login</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    
+    <display-name>registro</display-name>
+    <servlet>
+        <description/>
+        <display-name>Registro</display-name>
+        <servlet-name>Registro</servlet-name>
+        <servlet-class>com.adrian.servlet.Registro</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Registro</servlet-name>
+        <url-pattern>/Registro</url-pattern>
+    </servlet-mapping>
+    
+        <display-name>logout</display-name>
+    <servlet>
+        <description/>
+        <display-name>Logout</display-name>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>com.adrian.servlet.Logout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/Logout</url-pattern>
+    </servlet-mapping>
+    
+            <display-name>listausers</display-name>
+    <servlet>
+        <description/>
+        <display-name>ListaUsers</display-name>
+        <servlet-name>ListaUsers</servlet-name>
+        <servlet-class>com.adrian.servlet.ListaUsers</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListaUsers</servlet-name>
+        <url-pattern>/ListaUsers</url-pattern>
+    </servlet-mapping>
+    
+</web-app>
